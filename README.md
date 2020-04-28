@@ -1,0 +1,2 @@
+# Temperature
+The UI consists of a textbox at the top and three buttons below it. The user enters a temperature (e.g. 76) abd then taps one of the three buttons. If Celsius is tapped, then the entry is converted from Fahrenheit to Celsius and the result (rounded to 1 decimal) is written back in the textbox thus overwritting the entry (e.g. 24.4). The conversion is done the other way around if Fahrenheit is tapped. And if CLR is tapped then the textbox is cleared. Note that all numbers are real (double) and that the conversion formula is C=5(F-32)/9 which implies F=32+9C/5.
